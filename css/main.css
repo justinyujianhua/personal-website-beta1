@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+        box-sizing: border-box;
+}
+html {
+        height: 100%;
+}
+body,h1, p {
+        padding:0; margin:0;
+}
+img{border:none;}
+body{background: #37a0c9;
+	 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+     text-align: center;
+     height: 100%;
+}
+#content{
+	    background:url(../images/wallpapper.jpg);
+	    height:inherit;
+ }
+#photo{position: relative;top:50px;left: 80px;}
+#info{position:relative;top: -150px;left: 90px;}
+#blog{
+	  position:relative;
+	  top: -100px;
+	  left: -185px;
+	  text-decoration: none;
+	  font:Arial;
+	  font-weight: bold;
+	  font-size: 16px;
+	  color: #f3f3f3;
+	  text-shadow: 1px 1px 0 #b2b2b2;
+	}
+#blog img{
+	display: block;
+	position:absolute;
+	top:-10px;
+	left:-50px;
+	width: 42px;
+	height: 36px;
+}
+#zcool{
+	  position:relative;
+	  top: -100px;
+	  left: -115px;
+	  text-decoration: none;
+	  font:Arial;
+	  font-weight: bold;
+	  font-size: 16px;
+	  color: #f3f3f3;
+	  text-shadow: 1px 1px 0 #b2b2b2;
+	}
+#zcool img{
+	display: block;
+	position:absolute;
+	top:-10px;
+	left:-50px;
+	width: 42px;
+	height: 36px;
+}
+#renren{
+	  position:relative;
+	  top: -100px;
+	  left: -45px;
+	  text-decoration: none;
+	  font:Arial;
+	  font-weight: bold;
+	  font-size: 16px;
+	  color: #f3f3f3;
+	  text-shadow: 1px 1px 0 #b2b2b2;
+	}
+#renren img{
+	display: block;
+	position:absolute;
+	top:-10px;
+	left:-50px;
+	width: 42px;
+	height: 36px;
+}
+.info a img{
+	position: relative;
+	top:-30px;
+	left: -350px;
+}
+#mailadd{
+	display: block;
+	color:#d9d9d9;
+	font-weight: bolder;
+	font:Helvetica Neue;
+	font-size: 20px;
+	text-decoration: none;
+	margin-top: -65px;
+	margin-left: 280px;
+	text-shadow: 1px 1px 0 #737373;
+}
+#ToPortfolio{
+	background: url(../images/portfolio.png);
+    display: block;
+	position:absolute; 
+	top: 250px;
+	right: 0px;
+	width:120px;
+	height: 137px;
+}
+#ToPortfolio:hover{
+	background: url(../images/portfoliopress.png);
+    display: block;
+	position:absolute; 
+	top: 250px;
+	right: 0px;
+	width:120px;
+	height: 137px;
+}
+#ToInfo{
+	background: url(../images/aboutme.png);
+    display: block;
+	position:absolute; 
+	top: 250px;
+	left: 0px;
+	width:120px;
+	height: 137px;
+}
+#ToInfo:hover{
+	background: url(../images/aboutmepress.png);
+    display: block;
+	position:absolute; 
+	top: 250px;
+	left: 0px;
+	width:120px;
+	height: 137px;
+}
+#footer p,span{
+	line-height: 20px;
+	font:sans-serif;
+	font-weight: bolder;
+	color: #236d8c;
+    margin-top:-50px;
+	text-align: center;
+	font-size: 12px;
+}

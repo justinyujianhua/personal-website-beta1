@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="shortcut icon" href="favicon.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>爱交互（AJH）</title>
+<link type="text/css" rel="stylesheet" href="css/index.css" />
+<script type="text/javascript"src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript"src="js/jquery.js"></script>
+<script type="text/javascript">
+$(function(){
+  
+  var interval = setInterval(increment,48);
+  var current = 0;
+
+  function increment(){
+    current++;
+    $('#counter-text').html(current+'%'); 
+    if(current == 100) { current = 0; window.location="main.html" ;}
+  }
+});
+</script>
+
+</head>
+
+<body>
+  <div class="wrapper">
+     <div class="load-bar">
+        <div class="load-bar-inner" data-loading="0">
+           <div id="counter"></div>
+        </div>
+     </div>
+     <p id="warn">请使用firefox或chrome（360非兼容模式）内核的浏览器进行浏览</p>
+     <h5>beta 1.0测试版(亲，不要用IE哦，搜狗等浏览器请用高速模式）</h5>
+     <h1>Loading</h1>
+     <p>小郁正向着阳光灿烂的未来恣意奔跑...</p>
+     <a href="#">www.aijiaohu.com</a>
+  </div>
+</body>
+</html>
+

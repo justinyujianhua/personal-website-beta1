@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	margin:0;
+	padding:0;
+	background-color: #db574b;
+}
+img{border:none;}
+#louxian{
+    position: relative;
+    top: 20px;
+    left:560px;
+}
+.grid {
+	margin: 80px auto 80px auto;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	max-width: 1000px;
+	-webkit-box-shadow:0px 20px 50px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:0px 20px 50px rgba(0, 0, 0, 0.2);
+	-o-box-shadow:0px 20px 50px rgba(0, 0, 0, 0.2);
+	box-shadow:0px 20px 50px rgba(0, 0, 0, 0.2);
+}
+.grid li {
+	display: block;
+	width: 10%;
+	background: #000000;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.grid img {
+	float: left;
+	width: 100%;
+	height: auto;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform-style: preserve-3d;
+	-moz-backface-visibility: hidden;
+	-moz-transform: translate3d(0, 0, 0);
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
+	transform: translate3d(0, 0, 0);
+}
+.grid .info {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+	background: #DC584C;
+	display: none;
+	z-index: 2;
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform-style: preserve-3d;
+	-moz-backface-visibility: hidden;
+	-moz-transform: translate3d(0, 0, 0);
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
+	transform: translate3d(0, 0, 0);
+}
+.grid p {
+	font-size: 14px;
+    display: block;
+    width:90px;
+    position: relative;
+    left:-5px;
+	color: #FFF;
+}
+#ToHome{
+	background: url(../images/home.png);
+    display: block;
+	position:absolute; 
+	top: 250px;
+	left: 0px;
+	width:120px;
+	height: 137px;
+}
+#ToHome:hover{
+	background: url(../images/homepress.png);
+    display: block;
+	position:absolute; 
+	top: 250px;
+	left: 0px;
+	width:120px;
+	height: 137px;
+}
+#ToInfo{
+	background: url(../images/aboutme2.png);
+    display: block;
+	position:absolute; 
+	top: 250px;
+	right: 0px;
+	width:120px;
+	height: 137px;
+}
+#ToInfo:hover{
+	background: url(../images/aboutme2press.png);
+    display: block;
+	position:absolute; 
+	top: 250px;
+	right: 0px;
+	width:120px;
+	height: 137px;
+}
+#footer p{
+	position: relative;
+	top:10px;
+	left:0px;
+	line-height: 20px;
+	font:sans-serif;
+	font-weight: bolder;
+	color: #fda0a0;
+	text-align: center;
+	font-size: 12px;
+}
